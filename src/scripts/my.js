@@ -6,12 +6,13 @@ var vue = new Vue({
     data: {
         set: {
             options: [
-                { name: '我隨便', weight: 1, on: true },
-                { name: '我都好', weight: 1, on: true },
-                { name: '都可以', weight: 1, on: true },
-                { name: '看你', weight: 1, on: true },
+                { name: '耀你紅', weight: 1, on: true, color: '#222' },
+                { name: '活力黃', weight: 1, on: true },
+                { name: '青春綠', weight: 1, on: true },
+                { name: '晴天藍', weight: 1, on: true },
+                { name: '魔幻紫', weight: 1, on: true },
             ],
-            title: '今天想吃什麼?',
+            title: '💁🏼‍♀️屬於你的幸運色✨',
             ts: 0,
             hot: 0,
             uid: '',
@@ -136,8 +137,10 @@ var vue = new Vue({
                 pieSliceText: 'label',
                 title: this.set.title,
                 pieHole: 0.3,
-                legend: { alignment: 'center', 'position': 'bottom' }
+                fontSize: 25,
+                legend: { 'position': 'none' },
                 //slices: offset,
+                colors: ['#E60012', '#FCC800', '#8FC31F', '#00A0E9', '#BE0081']
             };
             var chart = new google.visualization.PieChart(document.getElementById('piechart'));
             chart.draw(data, options);
