@@ -24,7 +24,7 @@ var vue = new Vue({
             duration: 3000,
             volume: true,
             targetTag: 'piechart',
-            chatType: 'plot',
+            chatType: 'google',
             angleType: 1,
         },
 
