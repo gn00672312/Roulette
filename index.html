@@ -16,7 +16,9 @@
     <meta content="自訂轉盤" property="og:site_name" />
     <meta content="自訂轉盤、機率、選項！" property="og:description" />
     <meta content="http://z358z358.github.io/Roulette/asset/200x200.jpg" property="og:image" />
-    <link href="dist/styles/main.css?19112602" rel="stylesheet">
+    <link href="src/styles/bootstrap.min.css" rel="stylesheet">
+    <link href="src/styles/introjs.min.css" rel="stylesheet">
+    <link href="src/styles/my.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-flat.css" rel="stylesheet" type="text/css" />
@@ -24,9 +26,9 @@
 </head>
 
 <body id="main">
-    <img id='logo-left' src="asset/SOFIVA2.gif"/>
-    <img id='logo-right' src="asset/logo-1.jpg"/>
     <div class="container">
+        <img id='logo-left' src="asset/SOFIVA2.gif"/>
+        <img id='logo-right' src="asset/logo-1.jpg"/>
         <div class="alert alert-dismissible" role="alert" style="display: none" v-class="alert-danger:Msg.type=='error',alert-success:Msg.type=='success'" v-if="Msg.msg">
             <button aria-label="Close" class="close" data-dismiss="alert" type="button" v-on="click:Msg.msg=''"><span aria-hidden="true">&times;</span></button>
             <strong v-text="Msg.type=='error' ? '錯誤!' : '成功!' "></strong> <span v-text="Msg.msg"></span>
@@ -209,7 +211,7 @@
     </script>
     <style>
         #logo-left {
-            width: 300px;
+            width: 350px;
             position: fixed;
             left: 0;
             top: 50px;
@@ -217,7 +219,7 @@
         }
 
         #logo-right {
-            width: 300px;
+            width: 350px;
             position: fixed;
             right: 0;
             bottom: 50px;
