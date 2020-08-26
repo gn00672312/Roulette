@@ -98,7 +98,7 @@
 }
 
 body {
-  padding-top: 55px;
+  padding-top: 25px;
   overflow-x: hidden;
 }
 
@@ -114,6 +114,6 @@ body {
   width: 350px;
   position: absolute;
   right: 0;
-  bottom: 50px;
+  bottom: 20px;
   z-index: 1;
 }
