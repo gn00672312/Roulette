@@ -1,104 +1,120 @@
 .lottery-star {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -.5em;
-    margin-left: -.22em;
-    z-index: 5;
-    cursor: pointer;
-    font-size: 6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -.5em;
+  margin-left: -.22em;
+  z-index: 5;
+  cursor: pointer;
+  font-size: 6em;
 }
 
 .ly-plate {
-    padding: 1em;
-    z-index: -3 !important;
+  padding: 1em;
+  z-index: -3 !important;
 }
 
 .piechart {
-    height: 50em;
-    width: 50em;
-    margin: 0 auto;
-    z-index: 3;
+  height: 50em;
+  width: 50em;
+  margin: 0 auto;
+  z-index: 3;
 }
 
 .z-10 {
-    z-index: 10;
+  z-index: 10;
 }
 
 .ly-plate .fb-like {
-    position: absolute;
-    top: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .ly-plate .chart-title {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 30%;
-    word-wrap: break-word;
-    max-height: 100px;
-    overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  word-wrap: break-word;
+  max-height: 100px;
+  overflow: hidden;
 }
 
 .ly-plate .volume {
-    position: absolute;
-    left: 90%;
-    bottom: 20%;
+  position: absolute;
+  left: 90%;
+  bottom: 20%;
 }
 
 .fa-question-circle {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 
 .fb-comments,
 .fb-comments * {
-    width: 100% !important;
+  width: 100% !important;
 }
 
 .list-group-item {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .list-group-item .item-title {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .list-wrap {
-    position: relative;
+  position: relative;
 }
 
 .list-wrap .list-trash {
-    position: absolute;
-    top: 5px;
-    right: 5px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 
 @media (max-width: 767px) {
-    .lottery-star {
-        font-size: 3em;
-    }
+  .lottery-star {
+    font-size: 3em;
+  }
 
-    .piechart {
-        height: 20em;
-        width: 20em;
-    }
+  .piechart {
+    height: 20em;
+    width: 20em;
+  }
 
-    .nav>li.share-li {
-        display: inline-block;
-    }
+  .nav > li.share-li {
+    display: inline-block;
+  }
 }
 
 .ly-plate {
-    position: relative;
+  position: relative;
 }
 
 .tooltip-inner {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 body {
-    padding-top: 55px;
-    overflow-x: hidden;
+  padding-top: 55px;
+  overflow-x: hidden;
+}
+
+#logo-left {
+  width: 350px;
+  position: fixed;
+  left: 0;
+  top: 50px;
+  z-index: -1;
+}
+
+#logo-right {
+  width: 350px;
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  z-index: -1;
 }
