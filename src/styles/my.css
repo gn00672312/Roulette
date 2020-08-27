@@ -1,3 +1,6 @@
+#main {
+  padding-top: 0 !important;
+}
 .lottery-star {
   position: absolute;
   top: 50%;
@@ -9,13 +12,9 @@
   font-size: 6em;
 }
 
-.ly-plate {
-  padding: 1em;
-}
-
 .piechart {
-  height: 50em;
-  width: 50em;
+  height: 60em;
+  width: 60em;
   margin: 0 auto;
   z-index: 3;
   cursor: pointer;
@@ -104,9 +103,9 @@ body {
 }
 
 #logo-left {
-  width: 315px;
+  width: 270px;
   position: absolute;
-  left: 10px;
+  left: 15px;
   top: 50px;
   z-index: 1;
 }
