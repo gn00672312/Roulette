@@ -12,10 +12,10 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-flat.css" rel="stylesheet" type="text/css" />
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body id="main">
+    <div id="result" class="alert alert-success" role="alert"></div>
     <div class="container">
         <img id='logo-left' src="asset/SOFIVA2.gif"/>
         <img id='logo-right' src="asset/logo-1.jpg"/>
@@ -161,9 +161,6 @@
         </div>
         <hr />
         <!-- github2 -->
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
         <audio class="hidden" controls id="sound">
             <source src="asset/coin04.mp3" type="audio/mpeg" /> Your browser does not support the audio element.
         </audio>
@@ -198,6 +195,7 @@
     var disqus_config = function() {
         this.language = "zh_TW";
     };
+    $("#result").hide();
     </script>
 </body>
 </html>
