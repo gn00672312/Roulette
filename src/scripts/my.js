@@ -296,7 +296,7 @@ var vue = new Vue({
         if (this.c.volume) document.getElementById("end").play();
       }
 
-      this.showToast($("#result"), `結果： <strong>${log.content}</strong>`)
+      this.showToast($("#result"), `<strong>${log.content}</strong> 中獎！`)
     },
 
     showToast: function (selector, innerHTML) {
