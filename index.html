@@ -34,7 +34,7 @@
         </div>
         <div class="alert alert-success alert-dismissible z-10" role="alert" v-if="logs.length > 0">
             <button aria-label="Close" class="close" data-dismiss="alert" type="button"><span aria-hidden="true">&times;</span></button>
-            結果:<strong v-text="logs[0].content"></strong>
+            <strong v-text="logs[0].content"></strong>中獎!
             <div class="pull-right timeago" title="{{logs[0].ts}}"></div>
         </div>
         <div class="alert alert-success alert-dismissible z-10" role="alert" v-if="turnFlag > 0">
