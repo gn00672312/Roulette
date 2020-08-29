@@ -4,7 +4,7 @@
 
 .lottery-star {
   position: absolute;
-  top: calc(50% - 50px);
+  top: 50%;
   left: 50%;
   margin-top: -.5em;
   margin-left: -.22em;
@@ -21,9 +21,9 @@
     top: 50px;
     border: 1px solid #d6e9c6;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    width: 240px;
+    width: 320px;
     z-index: 100;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .piechart > div {
-  top: -50px;
+  top: 0px;
 }
 
 .z-10 {

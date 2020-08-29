@@ -137,7 +137,7 @@ var vue = new Vue({
         pieSliceText: 'label',
         title: this.set.title,
         pieHole: 0.3,
-        fontSize: 25,
+        fontSize: 40,
         legend: {'position': 'none'},
         //slices: offset,
         colors: ['#E60012', '#FCC800', '#8FC31F', '#00A0E9', '#BE0081']
